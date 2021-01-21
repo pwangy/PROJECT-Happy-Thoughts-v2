@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export const Likes = ({ id, hearts }) => {
-  const like_URL = `https://happy-thoughts-technigo.herokuapp.com/thoughts/${id}/like`
+  const like_URL = `https://happy-thoughts-api-pwangy.herokuapp.com//thoughts/${id}/like`
   let [like, setLike] = useState(hearts)
   let [yourLike, setYourLike] = useState(0)
 

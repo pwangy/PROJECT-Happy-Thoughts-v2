@@ -5,7 +5,7 @@ import { Likes } from './Likes'
 
 
 export const Published = () => {
-  const posted_url = "https://happy-thoughts-technigo.herokuapp.com/thoughts"
+  const posted_url = "https://happy-thoughts-api-pwangy.herokuapp.com/thoughts"
   const [pubPosts, setPubPosts] = useState([])
 
   useEffect(() => {

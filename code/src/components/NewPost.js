@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export const NewPost = () => {
-  const post_url = "https://happy-thoughts-technigo.herokuapp.com/thoughts"
+  const post_url = "https://happy-thoughts-api-pwangy.herokuapp.com/thoughts"
   const [thought, setThought] = useState("")
 
   // Disallow empty post
